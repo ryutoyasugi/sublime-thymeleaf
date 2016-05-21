@@ -132,7 +132,8 @@ class ThymeleafCompleteEvents(sublime_plugin.EventListener):
 			('th:target\tThymeleaf', 'th:target="\$\{$1\}"'),
 			('th:usemap\tThymeleaf', 'th:usemap="\$\{$1\}"'),
 			('th:vspace\tThymeleaf', 'th:vspace="\$\{$1\}"'),
-			('th:xmlbase\tThymeleaf', 'th:xmlbase="\$\{$1\}"')
+			('th:xmlbase\tThymeleaf', 'th:xmlbase="\$\{$1\}"'),
+      ('th:block\tThymeleaf', 'th:block>')
 		]
 
 		for completion in thCompletions:
