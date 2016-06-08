@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/JeroenVdb/sublime-thymeleaf",
+  "platforms": ["*"],
+  "description": "Thymeleaf autocomplete",
+  "version": "0.0.0",
+  "sublime_text": ">=3000"
+}
